@@ -1,0 +1,37 @@
+{
+  "_comment": "Externalized tuning tables (decision #13). trust(source) and rel(method) per architecture s7. Per-claim base belief b = trust x rel x norm_quality; max achievable b = 0.95 so confidence never reaches 1.0 by construction.",
+  "trust": {
+    "ats": 0.95,
+    "csv": 0.85,
+    "github": 0.80,
+    "linkedin": 0.75,
+    "resume": 0.70,
+    "notes": 0.55,
+    "inferred": 0.40
+  },
+  "rel": {
+    "direct_field": 1.00,
+    "field_remap": 0.97,
+    "api_field": 0.95,
+    "regex_extract": 0.75,
+    "llm_extract": 0.70,
+    "inferred": 0.50
+  },
+  "importance_weights": {
+    "full_name": 3,
+    "emails": 3,
+    "phones": 2,
+    "experience": 2,
+    "skills": 1.5,
+    "location": 1,
+    "headline": 1,
+    "education": 1,
+    "years_experience": 0.5
+  },
+  "cluster_conf": {
+    "_comment": "Entity-resolution certainty, set by the WEAKEST edge holding a cluster together (architecture s8d). Singleton = nothing merged = no merge risk.",
+    "tier1": 0.97,
+    "tier2": 0.80,
+    "singleton": 1.0
+  }
+}

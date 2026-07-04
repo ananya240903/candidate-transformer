@@ -1,0 +1,100 @@
+[
+  {
+    "full_name": "Dana Lee",
+    "primary_email": "dana.lee@example.com",
+    "phone": "+13105550172",
+    "skills": [
+      "GraphQL",
+      "React",
+      "TypeScript"
+    ],
+    "confidence": {
+      "full_name": 0.4125,
+      "primary_email": 0.4125,
+      "phone": 0.4125,
+      "skills": 0.4125
+    }
+  },
+  {
+    "full_name": "Michael Smith",
+    "primary_email": "mike.smith.dev@gmail.com",
+    "phone": "+447911123456",
+    "skills": [
+      "Go",
+      "Kubernetes",
+      "Terraform"
+    ],
+    "confidence": {
+      "full_name": 0.4125,
+      "primary_email": 0.4125,
+      "phone": 0.4125,
+      "skills": 0.4125
+    }
+  },
+  {
+    "full_name": "Priya Nair",
+    "primary_email": "priya.nair@example.com",
+    "phone": null,
+    "skills": [],
+    "confidence": {
+      "full_name": 0.85,
+      "primary_email": 0.85,
+      "phone": 0.0,
+      "skills": 0.0
+    }
+  },
+  {
+    "full_name": "Michael Smith",
+    "primary_email": "michael.smith@acme.com",
+    "phone": "+12025550143",
+    "skills": [],
+    "confidence": {
+      "full_name": 0.85,
+      "primary_email": 0.85,
+      "phone": 0.85,
+      "skills": 0.0
+    }
+  },
+  {
+    "full_name": "Sofia Alvarez",
+    "primary_email": "sofia.alvarez@newco.io",
+    "phone": "+16465550110",
+    "skills": [],
+    "confidence": {
+      "full_name": 0.9215,
+      "primary_email": 0.9215,
+      "phone": 0.9215,
+      "skills": 0.0
+    }
+  },
+  {
+    "full_name": "Robert Chen",
+    "primary_email": "r.chen@globex.com",
+    "phone": null,
+    "skills": [],
+    "confidence": {
+      "full_name": 0.9882,
+      "primary_email": 0.9215,
+      "phone": 0.0,
+      "skills": 0.0
+    }
+  },
+  {
+    "full_name": "Jonathan Park",
+    "primary_email": "jon.park@example.com",
+    "phone": "+14155550101",
+    "skills": [
+      "Django",
+      "Go",
+      "PostgreSQL",
+      "Python",
+      "TypeScript"
+    ],
+    "confidence": {
+      "full_name": 0.7054,
+      "primary_email": 0.9983,
+      "phone": 0.9882,
+      "skills": 0.859
+    }
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "login": "jonpark",
+  "name": "Jonathan Park",
+  "email": "jon.park@example.com",
+  "blog": "https://jonpark.dev",
+  "languages": ["Python", "Go", "TypeScript"]
+}

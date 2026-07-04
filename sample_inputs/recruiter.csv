@@ -1,0 +1,5 @@
+name,email,phone,current_company,title
+Jonathan Park,jon.park@example.com,+1 415 555 0101,Stripe,Senior Backend Engineer
+Priya Nair,priya.nair@example.com,555-0188,Acme Corp,Data Scientist
+Michael Smith,michael.smith@acme.com,+1 202 555 0143,Acme Corp,Product Manager
+Robert Chen,robert.chen@globex.com,,Globex,Data Engineer

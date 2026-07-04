@@ -1,0 +1,63 @@
+[33mcommit bf5ddd755656968775338c1e9d628ce5e0fd2778[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: ananya240903 <ananya240903@users.noreply.github.com>
+Date:   Sat Jul 4 11:30:16 2026 +0530
+
+    Update repository
+
+[33mcommit 438c5f414def24dc8d095d623790616ed193a76a[m
+Author: ananya240903 <ananya240903@users.noreply.github.com>
+Date:   Sat Jul 4 11:29:51 2026 +0530
+
+    README: clean-venv note, scope framing, decisions pointer
+
+[33mcommit 797c73be0ddcbdd2612bf39817f931034f5421b6[m
+Author: Shrestho Chatterjee <shresthochatterjee@Shresthos-MacBook-Air.local>
+Date:   Wed Jul 1 07:49:08 2026 +0530
+
+    pin pydantic>=2.6 to fix fresh-install v1 fallback
+
+[33mcommit eacf1542a176184ac12225defe4d3d18bfdfe84e[m
+Author: Shrestho Chatterjee <shresthochatterjee@Shresthos-MacBook-Air.local>
+Date:   Wed Jul 1 07:46:06 2026 +0530
+
+    fix: pin pydantic>=2.6 to prevent v1 import errors on fresh clone
+
+[33mcommit 03b77cd6891b81141119d037eae0d96e1f07a5c6[m
+Author: Shrestho Chatterjee <shresthochatterjee@Shresthos-MacBook-Air.local>
+Date:   Wed Jul 1 07:36:33 2026 +0530
+
+    P2: entity resolution — blocking, cascade, clustering
+    
+    Replaces the throwaway email-else-name grouping with real ER (architecture s5)
+    and adds two more sources.
+    
+    Refactor (first): abstentions move off the provenance method string into a
+    dedicated profile `abstentions: [{field,source,reason}]` channel; provenance
+    keeps its clean 3-key {field,source,method} shape.
+    
+    Entity resolution (resolve/ rewritten wholesale):
+    - Blocking: E: (non-role email), P: (E.164 last 9 digits), G: (github login),
+      N: (sorted metaphone of first/last). Comparisons only within blocks.
+    - Matching cascade: Tier-1 shared strong id (email/phone/github) -> merge;
+      Tier-2 high name sim (Jaro-Winkler>=0.92 or token_set_ratio>=90) + >=1
+      corroborator (city/company/email-domain/education) -> merge; Tier-3 name-only
+      -> DO NOT MERGE, surfaced as possible_duplicate. The false-merge guard.
+    - Union-find over Tier-1/Tier-2 edges (Tier-3 never unions); sorted, so
+      component assignment is deterministic. Each cluster tagged with its weakest
+      edge tier.
+    - candidate_id keys off the CLUSTER's strongest id (email>phone>github>name).
+    
+    cluster_conf (0.97/0.80/1.0 by weakest edge, in scoring.json) now wired into
+    overall confidence, replacing the P1 pin.
+    
+    Adapters: ATS JSON (field-remap) + GitHub-from-fixtures (languages->skills,
+    api_field); github logins discovered from other sources; --live opt-in, never
+    default. Sample gains ATS records, a Tier-2 pair (Robert Chen), and a github
+    fixture; run now emits 7 profiles.
+    
+    Tests: two-Michael false-merge guard (same N: block -> Tier-3 refusal ->
+    separate + possible_duplicate), Park Tier-1, Robert Chen Tier-2, ATS remap,
+    github skills, blocking prunes, candidate_id stable. 53 pass; outputs
+    regenerated; run-twice byte-identical.
+    
+    Co-Authored-By: Claude Opus 4.8 (1M context) <noreply@anthropic.com>

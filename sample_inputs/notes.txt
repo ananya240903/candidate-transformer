@@ -1,0 +1,5 @@
+Jon Park — backend engineer we sourced through a referral. Email: jon.park@example.com. Strong in Python, Django, and PostgreSQL.
+
+Michael Smith — freelance platform engineer based in London. Email: mike.smith.dev@gmail.com. Phone: +44 7911 123456. Skilled in Go, Kubernetes, and Terraform.
+
+Dana Lee — frontend candidate who reached out about open roles. Email: dana.lee@example.com. Phone: +1 310 555 0172. Skills: React, TypeScript, and GraphQL.

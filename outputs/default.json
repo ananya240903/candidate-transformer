@@ -1,0 +1,575 @@
+[
+  {
+    "candidate_id": "2d3059187ba10e82",
+    "full_name": "Dana Lee",
+    "emails": [
+      "dana.lee@example.com"
+    ],
+    "phones": [
+      "+13105550172"
+    ],
+    "location": {
+      "city": null,
+      "region": null,
+      "country": null
+    },
+    "links": {
+      "linkedin": null,
+      "github": null,
+      "portfolio": null,
+      "other": []
+    },
+    "headline": null,
+    "years_experience": null,
+    "skills": [
+      {
+        "name": "GraphQL",
+        "confidence": 0.4125,
+        "sources": [
+          "notes"
+        ]
+      },
+      {
+        "name": "React",
+        "confidence": 0.4125,
+        "sources": [
+          "notes"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "confidence": 0.4125,
+        "sources": [
+          "notes"
+        ]
+      }
+    ],
+    "experience": [],
+    "education": [],
+    "provenance": [
+      {
+        "field": "emails",
+        "source": "notes",
+        "method": "regex_extract"
+      },
+      {
+        "field": "full_name",
+        "source": "notes",
+        "method": "regex_extract"
+      },
+      {
+        "field": "phones",
+        "source": "notes",
+        "method": "regex_extract"
+      },
+      {
+        "field": "skills",
+        "source": "notes",
+        "method": "regex_extract"
+      }
+    ],
+    "abstentions": [],
+    "overall_confidence": 0.2913
+  },
+  {
+    "candidate_id": "3c3ece3602adb745",
+    "full_name": "Michael Smith",
+    "emails": [
+      "mike.smith.dev@gmail.com"
+    ],
+    "phones": [
+      "+447911123456"
+    ],
+    "location": {
+      "city": null,
+      "region": null,
+      "country": null
+    },
+    "links": {
+      "linkedin": null,
+      "github": null,
+      "portfolio": null,
+      "other": []
+    },
+    "headline": null,
+    "years_experience": null,
+    "skills": [
+      {
+        "name": "Go",
+        "confidence": 0.4125,
+        "sources": [
+          "notes"
+        ]
+      },
+      {
+        "name": "Kubernetes",
+        "confidence": 0.4125,
+        "sources": [
+          "notes"
+        ]
+      },
+      {
+        "name": "Terraform",
+        "confidence": 0.4125,
+        "sources": [
+          "notes"
+        ]
+      }
+    ],
+    "experience": [],
+    "education": [],
+    "provenance": [
+      {
+        "field": "emails",
+        "source": "notes",
+        "method": "regex_extract"
+      },
+      {
+        "field": "full_name",
+        "source": "notes",
+        "method": "regex_extract"
+      },
+      {
+        "field": "phones",
+        "source": "notes",
+        "method": "regex_extract"
+      },
+      {
+        "field": "skills",
+        "source": "notes",
+        "method": "regex_extract"
+      }
+    ],
+    "abstentions": [],
+    "overall_confidence": 0.2913
+  },
+  {
+    "candidate_id": "8e5dfabced190ccd",
+    "full_name": "Priya Nair",
+    "emails": [
+      "priya.nair@example.com"
+    ],
+    "phones": [],
+    "location": {
+      "city": null,
+      "region": null,
+      "country": null
+    },
+    "links": {
+      "linkedin": null,
+      "github": null,
+      "portfolio": null,
+      "other": []
+    },
+    "headline": null,
+    "years_experience": null,
+    "skills": [],
+    "experience": [
+      {
+        "company": "Acme Corp",
+        "title": "Data Scientist",
+        "start": null,
+        "end": null,
+        "summary": null
+      }
+    ],
+    "education": [],
+    "provenance": [
+      {
+        "field": "emails",
+        "source": "csv",
+        "method": "direct_field"
+      },
+      {
+        "field": "experience",
+        "source": "csv",
+        "method": "direct_field"
+      },
+      {
+        "field": "full_name",
+        "source": "csv",
+        "method": "direct_field"
+      },
+      {
+        "field": "phones",
+        "source": "csv",
+        "method": "direct_field"
+      }
+    ],
+    "abstentions": [
+      {
+        "field": "phones",
+        "source": "csv",
+        "reason": "e164_no_region"
+      }
+    ],
+    "overall_confidence": 0.7863
+  },
+  {
+    "candidate_id": "93ef343ca38bde67",
+    "full_name": "Michael Smith",
+    "emails": [
+      "michael.smith@acme.com"
+    ],
+    "phones": [
+      "+12025550143"
+    ],
+    "location": {
+      "city": null,
+      "region": null,
+      "country": null
+    },
+    "links": {
+      "linkedin": null,
+      "github": null,
+      "portfolio": null,
+      "other": []
+    },
+    "headline": null,
+    "years_experience": null,
+    "skills": [],
+    "experience": [
+      {
+        "company": "Acme Corp",
+        "title": "Product Manager",
+        "start": null,
+        "end": null,
+        "summary": null
+      }
+    ],
+    "education": [],
+    "provenance": [
+      {
+        "field": "emails",
+        "source": "csv",
+        "method": "direct_field"
+      },
+      {
+        "field": "experience",
+        "source": "csv",
+        "method": "direct_field"
+      },
+      {
+        "field": "full_name",
+        "source": "csv",
+        "method": "direct_field"
+      },
+      {
+        "field": "phones",
+        "source": "csv",
+        "method": "direct_field"
+      }
+    ],
+    "abstentions": [],
+    "overall_confidence": 0.7863
+  },
+  {
+    "candidate_id": "d4f8261d14faeded",
+    "full_name": "Sofia Alvarez",
+    "emails": [
+      "sofia.alvarez@newco.io"
+    ],
+    "phones": [
+      "+16465550110"
+    ],
+    "location": {
+      "city": "New York",
+      "region": null,
+      "country": "US"
+    },
+    "links": {
+      "linkedin": null,
+      "github": null,
+      "portfolio": null,
+      "other": []
+    },
+    "headline": null,
+    "years_experience": null,
+    "skills": [],
+    "experience": [
+      {
+        "company": "NewCo",
+        "title": "Machine Learning Engineer",
+        "start": null,
+        "end": null,
+        "summary": null
+      }
+    ],
+    "education": [],
+    "provenance": [
+      {
+        "field": "emails",
+        "source": "ats",
+        "method": "field_remap"
+      },
+      {
+        "field": "experience",
+        "source": "ats",
+        "method": "field_remap"
+      },
+      {
+        "field": "full_name",
+        "source": "ats",
+        "method": "field_remap"
+      },
+      {
+        "field": "location",
+        "source": "ats",
+        "method": "field_remap"
+      },
+      {
+        "field": "phones",
+        "source": "ats",
+        "method": "field_remap"
+      }
+    ],
+    "abstentions": [],
+    "overall_confidence": 0.8853
+  },
+  {
+    "candidate_id": "e612c343e2cc2956",
+    "full_name": "Robert Chen",
+    "emails": [
+      "r.chen@globex.com",
+      "robert.chen@globex.com"
+    ],
+    "phones": [],
+    "location": {
+      "city": "Boston",
+      "region": null,
+      "country": "US"
+    },
+    "links": {
+      "linkedin": null,
+      "github": null,
+      "portfolio": null,
+      "other": []
+    },
+    "headline": null,
+    "years_experience": null,
+    "skills": [],
+    "experience": [
+      {
+        "company": "Globex",
+        "title": "Data Engineer",
+        "start": null,
+        "end": null,
+        "summary": null
+      },
+      {
+        "company": "Globex",
+        "title": "Senior Data Engineer",
+        "start": null,
+        "end": null,
+        "summary": null
+      }
+    ],
+    "education": [],
+    "provenance": [
+      {
+        "field": "emails",
+        "source": "ats",
+        "method": "field_remap"
+      },
+      {
+        "field": "emails",
+        "source": "csv",
+        "method": "direct_field"
+      },
+      {
+        "field": "experience",
+        "source": "ats",
+        "method": "field_remap"
+      },
+      {
+        "field": "experience",
+        "source": "csv",
+        "method": "direct_field"
+      },
+      {
+        "field": "full_name",
+        "source": "ats",
+        "method": "field_remap"
+      },
+      {
+        "field": "full_name",
+        "source": "csv",
+        "method": "direct_field"
+      },
+      {
+        "field": "location",
+        "source": "ats",
+        "method": "field_remap"
+      }
+    ],
+    "abstentions": [],
+    "overall_confidence": 0.7505
+  },
+  {
+    "candidate_id": "f87f630956006036",
+    "full_name": "Jonathan Park",
+    "emails": [
+      "jon.park@example.com"
+    ],
+    "phones": [
+      "+14155550101"
+    ],
+    "location": {
+      "city": "San Francisco",
+      "region": null,
+      "country": "US"
+    },
+    "links": {
+      "linkedin": null,
+      "github": "jonpark",
+      "portfolio": null,
+      "other": []
+    },
+    "headline": null,
+    "years_experience": null,
+    "skills": [
+      {
+        "name": "Django",
+        "confidence": 0.4125,
+        "sources": [
+          "notes"
+        ]
+      },
+      {
+        "name": "Go",
+        "confidence": 0.76,
+        "sources": [
+          "github"
+        ]
+      },
+      {
+        "name": "PostgreSQL",
+        "confidence": 0.4125,
+        "sources": [
+          "notes"
+        ]
+      },
+      {
+        "name": "Python",
+        "confidence": 0.859,
+        "sources": [
+          "github",
+          "notes"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "confidence": 0.76,
+        "sources": [
+          "github"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Stripe",
+        "title": "Senior Backend Engineer",
+        "start": null,
+        "end": null,
+        "summary": null
+      },
+      {
+        "company": "Stripe",
+        "title": "Staff Backend Engineer",
+        "start": null,
+        "end": null,
+        "summary": null
+      }
+    ],
+    "education": [],
+    "provenance": [
+      {
+        "field": "emails",
+        "source": "ats",
+        "method": "field_remap"
+      },
+      {
+        "field": "emails",
+        "source": "csv",
+        "method": "direct_field"
+      },
+      {
+        "field": "emails",
+        "source": "github",
+        "method": "api_field"
+      },
+      {
+        "field": "emails",
+        "source": "notes",
+        "method": "regex_extract"
+      },
+      {
+        "field": "experience",
+        "source": "ats",
+        "method": "field_remap"
+      },
+      {
+        "field": "experience",
+        "source": "csv",
+        "method": "direct_field"
+      },
+      {
+        "field": "full_name",
+        "source": "ats",
+        "method": "field_remap"
+      },
+      {
+        "field": "full_name",
+        "source": "csv",
+        "method": "direct_field"
+      },
+      {
+        "field": "full_name",
+        "source": "github",
+        "method": "api_field"
+      },
+      {
+        "field": "full_name",
+        "source": "notes",
+        "method": "regex_extract"
+      },
+      {
+        "field": "links.github",
+        "source": "ats",
+        "method": "field_remap"
+      },
+      {
+        "field": "links.github",
+        "source": "github",
+        "method": "api_field"
+      },
+      {
+        "field": "location",
+        "source": "ats",
+        "method": "field_remap"
+      },
+      {
+        "field": "phones",
+        "source": "ats",
+        "method": "field_remap"
+      },
+      {
+        "field": "phones",
+        "source": "csv",
+        "method": "direct_field"
+      },
+      {
+        "field": "skills",
+        "source": "github",
+        "method": "api_field"
+      },
+      {
+        "field": "skills",
+        "source": "notes",
+        "method": "regex_extract"
+      }
+    ],
+    "abstentions": [],
+    "overall_confidence": 0.8702
+  }
+]

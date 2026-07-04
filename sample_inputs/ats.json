@@ -1,0 +1,30 @@
+[
+  {
+    "candidate_ref": "ATS-1001",
+    "applicant_name": "Jonathan Park",
+    "contact": { "email_address": "jon.park@example.com", "phone_number": "+1 415 555 0101" },
+    "employer": "Stripe",
+    "role": "Staff Backend Engineer",
+    "github_handle": "jonpark",
+    "city": "San Francisco",
+    "country": "US"
+  },
+  {
+    "candidate_ref": "ATS-1002",
+    "applicant_name": "Sofia Alvarez",
+    "contact": { "email_address": "sofia.alvarez@newco.io", "phone_number": "+1 646 555 0110" },
+    "employer": "NewCo",
+    "role": "Machine Learning Engineer",
+    "city": "New York",
+    "country": "US"
+  },
+  {
+    "candidate_ref": "ATS-1003",
+    "applicant_name": "Robert Chen",
+    "contact": { "email_address": "r.chen@globex.com", "phone_number": "" },
+    "employer": "Globex",
+    "role": "Senior Data Engineer",
+    "city": "Boston",
+    "country": "US"
+  }
+]
