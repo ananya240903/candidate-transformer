@@ -11,19 +11,19 @@ Date:   Sat Jul 4 11:29:51 2026 +0530
     README: clean-venv note, scope framing, decisions pointer
 
 [33mcommit 797c73be0ddcbdd2612bf39817f931034f5421b6[m
-Author: Shrestho Chatterjee <shresthochatterjee@Shresthos-MacBook-Air.local>
+Author: ananya240903 <ananya240903@users.noreply.github.com>
 Date:   Wed Jul 1 07:49:08 2026 +0530
 
     pin pydantic>=2.6 to fix fresh-install v1 fallback
 
 [33mcommit eacf1542a176184ac12225defe4d3d18bfdfe84e[m
-Author: Shrestho Chatterjee <shresthochatterjee@Shresthos-MacBook-Air.local>
+Author: ananya240903 <ananya240903@users.noreply.github.com>
 Date:   Wed Jul 1 07:46:06 2026 +0530
 
     fix: pin pydantic>=2.6 to prevent v1 import errors on fresh clone
 
 [33mcommit 03b77cd6891b81141119d037eae0d96e1f07a5c6[m
-Author: Shrestho Chatterjee <shresthochatterjee@Shresthos-MacBook-Air.local>
+Author: ananya240903 <ananya240903@users.noreply.github.com>
 Date:   Wed Jul 1 07:36:33 2026 +0530
 
     P2: entity resolution — blocking, cascade, clustering
